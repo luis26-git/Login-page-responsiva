@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+   
+}
+
+.login{
+    height: 100vh;
+    background: linear-gradient( #4d4561, #201b2c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2f2942;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px 0 #00000020;  /* Sombra leve */
+    padding: 32px;
+}
+
+
+.head{
+    font-size: 30px;
+    font-weight: 600;
+    color: #00fc85;
+}
+
+.subhead{
+    font-size: 14px;
+    font-weight: 400;
+    color: #00fc85;
+}
+
+.form{
+    width: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 16px;
+}
+
+.input-email{
+    margin-bottom: 8px;
+    width: 100%;
+    background-color: #514768;
+    padding: 8px 0 8px 32px;
+    border: 1px solid #514768;
+    border-radius: 4px;
+    color: rgb(253, 253, 253);
+   
+}
+
+.input-password{
+
+    background-color: #514768;
+    width: 100%;
+    padding: 8px 0 8px 32px;
+    border: 1px solid #514768;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+
+}
+
+.label-email{
+    margin: 0 0 -1px 0 ;
+    font-weight: 600;
+    color: #00fc85;
+
+}
+
+.label-password{
+    margin: 0 0 -1px  ;
+    font-weight: 600;
+    color:#00fc85;
+
+}
+
+.form i {
+    color: #00fc85;
+    font-size: 16px;
+    transform: translateX(10px) translateY(28px) ; /*controlando os icones*/
+}
+
+
+.input-email::placeholder{
+    font-size: 12px;
+    color:  #00fc85 ;
+}
+
+.input-password::placeholder{
+    font-size: 12px;
+    color:  #00fc85 ;
+}
+
+.input-email:focus{
+    border: 1px solid #00fc85  ; /* efeito de borda*/
+
+}
+
+.input-password:focus{
+    border: 1px solid #00fc85  ;
+
+}
+
+.forgot:hover{
+color:  #056b3b;
+
+}
+
+.forgot{
+    color: #00fc85 ;
+    margin: 16px 0 16px 0;
+    cursor: pointer;
+}
+
+.button{
+    width: 100%;
+    border-radius: 4px ;
+    font-weight: 600;
+    background: linear-gradient( #4d4561, #201b2c);
+    color:#00fc85 ;
+    padding: 7px;
+    cursor: pointer;
+    border: none;
+}
